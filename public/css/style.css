@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color:burlywood;
+}
+.title{
+    background-color:beige;
+    border-radius: 5px;
+    border: solid black 5px;
+    padding: 5px;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.description{
+    background-color:beige;
+    border-radius: 5px;
+    border: solid black 5px;
+    padding: 5px;
+    width: 300px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lista{
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
